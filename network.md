@@ -13,7 +13,7 @@ Then there are 3 other networks that are exclusive to the lab, a general VM netw
   - Restricted to the bare minimum of hosts.  
 
 
-DHCP is handled by a [KEA DHCP](https://www.isc.org/kea/) instance managed trough Stork. All IP's (except in the DMZ) are reservated in the DHCP server rather than setting a static IP on the server. This allows single source of truth for all IP's in the lab.
+DHCP is handled by a [KEA DHCP](https://www.isc.org/kea/) instance managed trough [Stork](https://stork.isc.org/). All IP's (except in the DMZ) are reservated in the DHCP server rather than setting a static IP on the server. This allows single source of truth for all IP's in the lab.
 
 ### Networks Range
 |  Network | VLAN |      CIDR      | DHCP Range      |
