@@ -27,13 +27,15 @@ LLL-vAPP##
 
 **Servers**  
 
-| Hostname     | OS            | Specs                | Storage                                                          |
-|:------------:|:-------------:|:--------------------:|:----------------------------------------------------------------:|
-| HL-HV1       | Proxmox 7.2   | i7-11700 \| 32GB RAM | Boot: 120GB SSD<br>Storage: 512GB NVMe \| 1x3TB HDD \| 1x8TB HDD |
-| HL-Docker1   | Rocky Linux 9 | Raspberry Pi 2GB     | 64GB Micro SD Card                                               |
-| HL-k3s-node1 | Rocky Linux 9 | Raspberry Pi 2GB     | 64GB Micro SD Card                                               |
-| HL-k3s-node2 | Ubuntu 20.04  | Jetson Nano          | 64GB Micro SD Card                                               |
-| HL-General1  | Fedora Server | 64 X2 4600+ 8GB RAM  | 500GB HDD                                                        |
+|    Hostname    |       OS      |         Specs        | Storage                              |
+|:--------------:|:-------------:|:--------------------:|--------------------------------------|
+| HL-Hypervisor1 |  Proxmox 7.2  | i7-11700 \| 64GB RAM | 512GB NVMe \| 1x3TB HDD \| 1x8TB HDD |
+| HL-Hypervisor2 |  Proxmox 7.2  | i7-3770M \| 16GB RAM | 512GB SSD                            |
+|   HL-Docker1   | Rocky Linux 9 |       RPi 4 2GB      | 64GB Micro SD Card                   |
+|     HL-RPi1    | Rocky Linux 9 |       RPi 4 2GB      | 64GB Micro SD Card                   |
+|     HL-RPi2    |    Raspbian   |         RPi 2        | 16GB Micro SD Card                   |
+|     HL-AI1     |  Ubuntu 20.04 |      Jetson Nano     | 64GB Micro SD Card                   |
+|   HL-General1  | Fedora Server |  64 X2 4600+ 8GB RAM | 500GB HDD                            |
 
 **VM's**
 
